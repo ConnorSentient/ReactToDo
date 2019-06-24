@@ -7,7 +7,7 @@ class List extends Component {
                 <div>
                     <form onSubmit={this.props.add}>
                         <input placeholder="New Task" ref={this.props.inputElement} value={this.props.current.text} onChange={this.props.input}/>
-                        <button tyep="submit">Add Task</button>
+                        <button type="submit">Add Task</button>
                     </form>
                 </div>
             </div>
